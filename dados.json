@@ -11,7 +11,7 @@
         "id": 2,
         "titulo": "Botanica do café",
         "descricao": "Aprenda sobre a planta café, suas características e espécies.",
-        "imagem": "./conhecimentos/Conhecimentosimg/botanicadocafe.jpg",
+        "imagem": "/conhecimentos/Conhecimentosimg/botanicadocafe.jpg",
         "link":"./conhecimentos/botanica_do_cafe.html"  
       },
       {
