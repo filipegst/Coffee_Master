@@ -1,0 +1,118 @@
+{
+    "conhecimentos": [
+      {
+        "id": 1,
+        "titulo": "Historia do Café",
+        "descricao": "Descubra a lenda do pastor Kaldir e conheça as curiosas maneiras como o café era consumido no passado.",
+        "imagem": "./conhecimentos/Conhecimentosimg/historia do cafe.webp",
+        "link":"./conhecimentos/historia_do_cafe.html"
+      },
+      {
+        "id": 2,
+        "titulo": "Botanica do café",
+        "descricao": "Aprenda sobre a planta café, suas características e espécies.",
+        "imagem": "./conhecimentos/Conhecimentosimg/botanicadocafe.jpg",
+        "link":"./conhecimentos/botanica_do_cafe.html"  
+      },
+      {
+        "id": 3,
+        "titulo": "Colheita do café",
+        "descricao": "Entenda o processo de colheita do café, desde a escolha do ponto ideal até a colheita manual e mecanizada.",
+        "imagem": "./conhecimentos/Conhecimentosimg/colheita.jpg" ,
+        "link":"./conhecimentos/colheita.html" 
+      },
+      {
+        "id": 4,
+        "titulo": "Pos colheita",
+        "descricao": "Aprenda sobre os diferentes métodos de processamento do café, como o método seco e úmido.",
+        "imagem": "./conhecimentos/Conhecimentosimg/pos_colheita.png",
+        "link":"./conhecimentos/pos_colheita.html"  
+      },
+      {
+        "id": 5,
+        "titulo": "Secagem",
+        "descricao": "Conheça os métodos de secagem do café",
+        "imagem": "./conhecimentos/Conhecimentosimg/secagem.jpg", 
+        "link":"./conhecimentos/secagem.html" 
+      },
+      {
+        "id": 6,
+        "titulo": "Classificação",
+        "descricao": "Aprenda sobre os diferentes tipos de café e suas classificações.",
+        "imagem": "./conhecimentos/Conhecimentosimg/classificacao 3.jpg",
+        "link":"./conhecimentos/classificaçao.html"
+      },
+      {
+        "id": 7,
+        "titulo": "Torra",
+        "descricao": "Conheça os diferentes tipos de torra e como ela influencia no sabor do café.",
+        "imagem": "./conhecimentos/Conhecimentosimg/torra.jpg",
+        "link":"./conhecimentos/torra.html"  
+      },
+      {
+        "id": 8,
+        "titulo": "Metodos de preparo",
+        "descricao": "Aprenda sobre os diferentes métodos de preparo do café",
+        "imagem": "./conhecimentos/Conhecimentosimg/metodo.jpg",
+        "link":"./conhecimentos/metodos_de_preparo.html"  
+      }
+    ],
+      "cafes":[
+          {
+              "nome":"Brasil Blend",
+              "notas":"Suave acidez com notas de castanhas e chocolate ao leite.",
+              "imagem":"./cafes/cafesimg/brasil_blend.png",
+              "torra":"./cafes/cafesimg/torra_pike.png",
+              "link":"./cafes/brasil.html"
+          },
+          {
+              "nome":"Colombia",
+              "notas":"Notas de cacau e nozes",
+              "imagem":"./cafes/cafesimg/colombia_embalagem.png",
+              "torra":"./cafes/cafesimg/torra_pike.png",
+              "link":"./cafes/colombia.html"
+          },
+
+          {
+            "nome":"Ethiopia",
+            "notas":"Notas de chocolate meio amargo, pimenta e citrico adocicado",
+            "imagem":"./cafes/cafesimg/ethiopia_embalagem.png",
+            "torra":"./cafes/cafesimg/torra_pike.png",
+            "link":"./cafes/ethiopia.html"
+        },
+
+        {
+          "nome":"Espresso Roast",
+          "notas":"Notas de caramelo, especiarias, chocolate meio amargo e castanhas ",
+          "imagem":"./cafes/cafesimg/espresso_embalagem.webp",
+          "torra":"./cafes/cafesimg/torra_espresso.png",
+          "link":"./cafes/espresso.html"
+      },
+
+      {
+        "nome":"Pike Place",
+        "notas":"Notas de chocolate, canela,cacau e castanha tostada",
+        "imagem":"./cafes/cafesimg/pike_embalagem.jpg",
+        "torra":"./cafes/cafesimg/torra_pike.png",
+        "link":"./cafes/pike.html"
+      },
+
+      {
+        "nome":"Sumatra",
+        "notas":"Terosso com notas herbais e de especiarias",
+        "imagem":"./cafes/cafesimg/sumatra_embalagem.jpg",
+        "torra":"./cafes/cafesimg/sumatra_e_verona.png",
+        "link":"./cafes/sumatra.html"
+    },
+
+      {
+          "nome":"Verona",
+          "notas":"Notas de chocolate meio amargo, caramelo, cacau e açucar caramelizado",
+          "imagem":"./cafes/cafesimg/verona_embalagem.jpg",
+          "torra":"./cafes/cafesimg/sumatra_e_verona.png",
+          "link":"./cafes/verona.html"
+      }
+      ]
+  }
+
+  

@@ -1,0 +1,57 @@
+@import url(style.css);
+
+
+section{
+    margin: 40px auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+.listaCafes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;    
+}
+
+
+
+.cafes {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0.5rem auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+.linkCafe img{
+    width: 260px;
+    cursor: pointer;   
+
+}
+
+.cafeTitulo {
+    font-size: 2.19em;
+    font-weight: 700;
+    color: var(--verde);
+    cursor: text;
+}
+
+.cafeSubtitulo {
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--preto);
+    margin: auto;
+    cursor: text;
+    
+}
+
+
+.cafes img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
