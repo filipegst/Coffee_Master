@@ -1,0 +1,60 @@
+@import url(/estilos/style.css);
+
+footer{
+    height: auto;
+    margin-top: 10rem;
+    padding-top: 2rem;
+    display: flex;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 0px hsla(0, 0%, 0%, 0.1);
+
+}
+
+
+.redes{
+    list-style: none;
+    padding: 1rem;
+    justify-content: center;;
+}
+
+.redes a{
+    display:flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-decoration: none;
+    color: hsla(0, 0%, 0%, 0.867);
+    font: 600 1.1rem sans-serif;
+    }
+
+.redes img{
+    width: 1.5rem;
+    height: 1.5rem;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+        
+.redes li:hover img{
+    filter: grayscale(0%);
+    filter: rgb(255, 255, 255);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    }
+
+.redes li:hover{
+    color: var(--verde);
+    transition: 0.3s;
+}
+
+
+.copyrights{
+    padding: 16px 0 32px 0;
+    color: #4d4d4d80;
+}
+
+.copyrights span{
+    letter-spacing: 0.1rem;
+    font-weight: 900;    
+}
