@@ -10,7 +10,7 @@ export default defineConfig({
         conhecimentos: resolve(__dirname, 'conhecimentos.html')
       },
       output: {
-        assetFileNames: 'assets/[name].[ext]', // Garante que CSS e JS fiquem organizados
+        assetFileNames: 'assets/[name].[ext]',
         entryFileNames: 'assets/[name].js'
       }
     }
