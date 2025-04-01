@@ -23,6 +23,7 @@
 
 .cardImagem img{
     width: 90%;
+    height: 90%;
     border-radius: 30px;
     object-fit: cover;
 }
@@ -39,7 +40,10 @@ span{
         letter-spacing: 0.04em;
     }
     
-
+    .cardImagem img{
+        width: 90%;
+        height: auto;
+    }
 
 
 }
